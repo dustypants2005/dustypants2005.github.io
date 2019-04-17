@@ -1,3 +1,12 @@
+# React, Redux, React Router and Typescript
+## Pages
+### - Counter
+Simple counter example using [react webhooks](https://reactjs.org/docs/hooks-intro.html)
+### - Redux Counter
+Simple counter example using redux. The user can also save the state of the counter in localstorage. The counter is only loaded when the page loads.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
