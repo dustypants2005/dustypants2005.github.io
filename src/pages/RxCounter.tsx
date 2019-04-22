@@ -11,12 +11,12 @@ interface iDispatch {
   onLoad: Function
 }
 
-interface iCounter {
-  RxCounter: iState
-}
+// interface iCounter {
+//   RxCounter: iState
+// }
 
-const mapStateToProps = (state: iCounter) => {
-  return { ...state.RxCounter }
+const mapStateToProps = (state: iState) => {
+  return { ...state }
 }
 
 const mapDispatchToProps = (dispatch: Dispatch<any>) => {
@@ -48,7 +48,7 @@ class RxCounter extends Component<Props, any> {
         <h2>Redux Counter</h2>
         <hr />
         <div className='row'>
-          Count: { this.props.counter }
+          Count: { this.props.RxCounter }
         </div>
         <div className='btn-group row'>
           <button className='btn btn-primary' onClick={ () => this.OnIncrement() }>+</button>
