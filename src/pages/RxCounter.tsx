@@ -11,10 +11,6 @@ interface iDispatch {
   onLoad: Function
 }
 
-// interface iCounter {
-//   RxCounter: iState
-// }
-
 const mapStateToProps = (state: iState) => {
   return { ...state }
 }
