@@ -41,15 +41,15 @@ class RxCounter extends Component<Props, any> {
   render() {
     return (
       <div>
-        <h2>Redux Counter</h2>
+        <h2><strong>Redux Counter</strong></h2>
         <hr />
         <div className='row'>
-          Count: { this.props.RxCounter }
+          Count: <h2 className='px-3'><strong>{ this.props.RxCounter }</strong></h2>
         </div>
         <div className='btn-group row'>
-          <button className='btn btn-primary' onClick={ () => this.OnIncrement() }>+</button>
-          <button className='btn btn-primary' onClick={ () => this.OnDecrement() }>-</button>
-          <button className='btn btn-primary' onClick={ () => this.OnSave() }>Save</button>
+          <button className='btn btn-info' onClick={ () => this.OnIncrement() }><i className='fas fa-plus fa-2x'/></button>
+          <button className='btn btn-info' onClick={ () => this.OnDecrement() }><i className='fas fa-minus fa-2x'/></button>
+          <button className='btn btn-primary' onClick={ () => this.OnSave() }><i className='far fa-save fa-2x'/></button>
         </div>
       </div>
     )
