@@ -4,6 +4,8 @@
 Simple counter example using [react webhooks](https://reactjs.org/docs/hooks-intro.html)
 ### - Redux Counter
 Simple counter example using redux. The user can also save the state of the counter in localstorage. The counter is only loaded when the page loads.
+### - Todo
+Text input and button to create a todo. Enter can be used instead of clicking. Saving is done automatically to localstorage when the page is unmounted but reloading the page will not save the todos. Additionally there is a save button for manual saves. Each todo can be clicked for completion and a delete button is added for each todo.
 
 ---
 
